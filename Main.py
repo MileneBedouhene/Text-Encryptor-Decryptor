@@ -303,11 +303,11 @@ def Des3_Decrypt(key, encrypted_message):
 
 
 #LE CHARGEMENT DE LA CLE PUBLIQUE A PARTIR DU FICHIER 
-with open("C:\\Users\\milen\\OneDrive\\Desktop\\Crypto\\ALGO\\Rsa\\public.pem", "rb") as f:
+with open("C:/Users/milen/OneDrive/Desktop/Crypto/ALGO/Rsa/public.pem", "rb") as f:
     public_key = rsa.PublicKey.load_pkcs1(f.read())
 
 #LE CHARGEMENT DE LA CLE PRIVE A PARTIR DU FICHIER
-with open("C:\\Users\\milen\\OneDrive\\Desktop\\Crypto\\ALGO\\Rsa\\private.pem", "rb") as f:
+with open("C:/Users/milen/OneDrive/Desktop/Crypto/ALGO/Rsa/private.pem", "rb") as f:
     private_key = rsa.PrivateKey.load_pkcs1(f.read())
 
 

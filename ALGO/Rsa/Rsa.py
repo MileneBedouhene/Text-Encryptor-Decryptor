@@ -1,11 +1,11 @@
 import rsa
 
 # Charger la clé publique depuis le fichier
-with open("C:\\Users\\milen\\OneDrive\\Desktop\\Crypto\\ALGO\\Rsa\\public.pem", "rb") as f:
+with open("C:/Users/milen/OneDrive/Desktop/Crypto/ALGO/Rsa/public.pem", "rb") as f:
     public_key = rsa.PublicKey.load_pkcs1(f.read())
 
 # Charger la clé privée depuis le fichier
-with open("C:\\Users\\milen\\OneDrive\\Desktop\\Crypto\\ALGO\\Rsa\\private.pem", "rb") as f:
+with open("C:/Users/milen/OneDrive/Desktop/Crypto/ALGO/Rsa/private.pem", "rb") as f:
     private_key = rsa.PrivateKey.load_pkcs1(f.read())
 
 def encrypt_message():
